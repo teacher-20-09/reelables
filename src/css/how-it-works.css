@@ -1,0 +1,29 @@
+#how-it-works {
+  padding: 64px 20px 80px 20px; }
+  #how-it-works h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 48px; }
+  #how-it-works .works-content {
+    display: flex;
+    justify-content: center; }
+    #how-it-works .works-content .img-block {
+      position: relative; }
+      #how-it-works .works-content .img-block .ellipse {
+        position: absolute;
+        top: 0;
+        right: 285px; }
+      #how-it-works .works-content .img-block p {
+        width: 445px;
+        height: 434px;
+        margin-right: 30px;
+        background: #C4C4C4; }
+    #how-it-works .works-content .works-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 635px; }
+      #how-it-works .works-content .works-desc p {
+        font-weight: 400; }

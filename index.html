@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/css/bootstrap.min.css">
   <link rel="stylesheet" href="/src/css/fontawesome.min.css">
-  <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/responsive.css">
   <title>Reelables</title>
 </head>
 <body>
@@ -180,14 +181,16 @@
   </div>
 
   <div id="smart-labels">
-    <div class="labels-content container">
+    <div class="labels-content">
       <div class="labels-desc">
         <h2>Bluetooth smart labels at $1 in volume</h2>
         <p>Reelables’ labels come on reels and feed into industrial printers. They stick to packages, shipping labels, boxes of inventory, safety equipment, and even tools & equipment.
         </p>
       </div>
 
-      <img src="/src/img/labels-img.png" alt="Img not found...">
+      <div class="label-image">
+        <img src="/src/img/labels-img.png" alt="Img not found...">
+      </div>
     </div>
   </div>
 
@@ -220,12 +223,14 @@
   </div>
 
   <div id="demo">
-      <div class="demo-content container">
+      <div class="demo-content">
         <h3><span>1.</span>Buy a [demo kit] with our WiFi or Cellular gateway</h3>
         <h3><span>2.</span>Define a new workflow or use We’ll help customise and implement it for you</h3>
         <h3><span>3.</span>We’ll then work with you to build connectors into your ERP system</h3>
       </div>
-      <img src="/src/img/demo-img.png" alt="Img not found...">
+      <div class="demo-img">
+        <img src="/src/img/demo-img.png" alt="Img not found...">
+      </div>
   </div>
 
   <div id="contact-us">
@@ -261,18 +266,22 @@
   <footer class="page-footer font-small">
     <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col-md-6 col-lg-5 text-center text-md-left">
+        <div class="col-md-3 col-lg-3 text-center text-md-left">
           <a class="navbar-brand" href="#">
             <img class="logo" src="/src/img/footer-logo.png" alt="Img not found...">
           </a>
         </div>
-        <div class="col-md-6 col-lg-7 footer-link text-center text-md-right">    
+        <div class="col-md-9 col-lg-9 footer-link text-center text-md-right">    
           <p><a href="#!">Features</a></p>
           <p><a href="#!">Templates</a></p>
           <p><a href="#!">Demo</a></p>
           <p><a href="#!">Pricing</a></p>
           <p><a href="#!">Integrations</a></p>
           <p><a href="#!">Contact us</a></p>
+          <p><a class="nav-link try-it ml-auto" href="#">Try it
+              <img src="/src/img/try.svg" alt="Img not found...">               
+            </a>
+          </p>
         </div>
       </div>
       <hr>

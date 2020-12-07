@@ -1,0 +1,356 @@
+$desktop: 992px;
+$tablet: 768px;
+$mobile: 480px;
+
+@media (max-width: $desktop) {
+
+  #main-block  {
+    .processes {
+      .description {
+        padding-top: 0;
+
+        h2 {
+          font-size: 24px;
+        }
+
+        .btn-block {
+          p {
+            width: 150px;
+            font-size: 16px;
+            padding: 8px 16px;
+          }  
+        }
+      }
+    }
+  }
+
+  #customizable {
+    .custom-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  #workflow-process {
+    .workflows-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .descr {
+        p {
+          left: 0;
+          margin-top: 20px;
+        }
+      }
+
+      .img {
+        &:first-child {
+          max-width: 100%;
+        }
+
+        &:nth-child(2) {
+          right: 0;
+        }
+      }
+    }
+  }
+
+  #workflow-zones {
+    .zones {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .descr {
+        p {
+          left: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  #workflow-tracking-app {
+    .tracking {
+      flex-direction: column;
+      align-items: center;
+      
+      .app-img {
+        margin: 30px auto;
+        left: 60px;
+      }
+    }
+  }
+
+  #smart-labels {
+    .labels-content {
+      flex-direction: column;
+
+      .labels-desc {
+        margin: auto;
+      }
+    }
+  }
+
+  #how-it-works {
+    .works-content {
+      flex-direction: column;
+      align-items: center;
+
+      .img-block {
+        p {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  #demo {
+    flex-direction: column;
+
+    .demo-content {
+      margin: auto;
+    }
+    
+    .demo-img {
+      margin: auto;
+      min-height: 280px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .page-footer {
+
+    .d-flex {
+      display: flex;
+      flex-direction: column;
+
+      & > div {
+        text-align: center !important;
+      }
+
+      .navbar-brand {
+        margin-right: 0;
+      }
+
+      .footer-link {
+        display: flex;
+        flex-direction: column;
+
+        p {
+          margin: 5px auto;
+        }
+      }
+    }
+
+    .footer-copyright {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  #main-block  {
+    .processes {
+      .photo {
+        bottom: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+
+  #main-block  {
+    .processes {
+      .description {
+        .btn-block {
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            width: 80%;
+
+            &:first-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #customizable {
+    .custom-header {
+      padding: 20px;
+
+      h2 {
+        &:nth-child(2) {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .custom-blocks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  #workflow-process {
+    .workflows-header {
+      margin: 0;
+      padding: 20px;
+    }
+
+    .workflows-content {
+      .img {
+        img {
+          max-width: 100%;
+        }
+
+        .ellipse {
+          right: 0;
+        }
+      }
+    }
+  }
+
+  #workflow-zones {
+    .zones {
+
+      .descr {
+        p {
+          left: 0;
+          margin-top: 20px;
+        }
+      }
+
+      .img {
+        .map {
+          width: 300px;
+          height: auto;
+        }
+
+        .marker {
+          width: 167px;
+          height: auto;
+          left: 106px;
+          top: 0px;
+        }
+      }
+    }
+  }
+
+  #smart-labels {
+    .labels-content {
+      .labels-desc {
+        padding: 20px;
+      }
+
+      .label-image  {
+        min-height: 100px;
+      }
+    }
+  }
+
+  #workflow-tracking-app {
+    .tracking {
+      padding-bottom: 20px;
+      
+      .app-img {
+        margin: 30px auto;
+        left: 0;
+        max-width: 100%;
+
+        .device-1 {
+          width: 73px;
+          height: auto;
+          left: -10px;
+        }
+
+        .device-2 {
+          width: 106px;
+          height: auto;
+          left: 55px;
+          top: 15px;
+        }
+
+        .device-3 {
+          width: 212px;
+          height: auto;
+          left: 75px;
+          top: 35px;
+        }
+
+        .ellipse {
+          right: 30px;
+        }
+      }
+
+      .description {
+        max-width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  #how-it-works {
+    .works-content {
+
+      .img-block {
+        p {
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  #demo {
+
+    .demo-content {
+      margin: auto;
+
+      h3 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  #contact-us {
+    padding: 20px;
+
+    .contact-content {
+      .form-group {
+        
+        .btn-block {
+          display: flex;
+          flex-direction: column;
+
+          p {
+            margin: auto;
+            width: 150px;
+            height: 40px;
+          }
+
+          a {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .page-footer {
+
+    .footer-copyright {
+      align-items: flex-start;
+    }
+  }
+}

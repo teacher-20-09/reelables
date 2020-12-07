@@ -1,0 +1,34 @@
+#smart-labels {
+  width: 100%;
+  min-height: 235px;
+  height: auto;
+  background-image: url("../img/labels-bg.png");
+  background-position: center;
+  background-size: cover; }
+  #smart-labels .labels-content {
+    display: flex;
+    justify-content: center; }
+    #smart-labels .labels-content .labels-desc {
+      width: 100%;
+      max-width: 550px;
+      padding: 68px;
+      z-index: 2; }
+      #smart-labels .labels-content .labels-desc h2 {
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 17px;
+        color: #FFF; }
+      #smart-labels .labels-content .labels-desc p {
+        width: 100%;
+        max-width: 510px;
+        color: #FFF; }
+    #smart-labels .labels-content .label-image {
+      position: relative;
+      width: 100%;
+      max-width: 700px;
+      min-height: 235px; }
+      #smart-labels .labels-content .label-image img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        max-width: 100%; }

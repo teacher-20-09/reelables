@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 gulp.task('sass', async function(){
-  gulp.src('./src/scss/**/*.scss')
+  gulp.src('./src/scss/*.scss')
 });
 
 gulp.task('sass:watch', async function(){

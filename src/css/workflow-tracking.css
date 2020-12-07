@@ -1,0 +1,37 @@
+#workflow-tracking-app .tracking {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 360px;
+  padding-bottom: 81px; }
+  #workflow-tracking-app .tracking .app-img {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    left: 105px; }
+    #workflow-tracking-app .tracking .app-img .ellipse {
+      position: relative; }
+    #workflow-tracking-app .tracking .app-img .device-1 {
+      position: absolute;
+      top: 77px;
+      left: -125px;
+      z-index: 2; }
+    #workflow-tracking-app .tracking .app-img .device-2 {
+      position: absolute;
+      left: -40px;
+      z-index: 1; }
+    #workflow-tracking-app .tracking .app-img .device-3 {
+      position: absolute;
+      left: 10px;
+      top: 25px;
+      z-index: 0; }
+  #workflow-tracking-app .tracking .description {
+    position: relative;
+    top: 15px;
+    left: -20px;
+    width: 100%;
+    max-width: 455px;
+    margin: auto; }
+    #workflow-tracking-app .tracking .description span {
+      text-transform: uppercase;
+      font-weight: 600; }

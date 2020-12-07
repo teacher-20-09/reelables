@@ -1,0 +1,48 @@
+#workflow-process {
+
+  .workflows-header {
+    margin: 64px auto 37px auto;
+    
+    h2 {
+      text-align: center;
+      font-size: 26px;
+      line-height: 39px;
+
+      &:nth-child(2) {
+        margin: auto;
+        width: max-content;
+        max-width: 100%;
+        padding: 0 3px;
+        background: #4AC9F3;
+        color: #FFF;
+      }
+    }
+  }
+
+  .workflows-content {
+    display: flex;
+    justify-content: space-around;
+
+    .img {
+      position: relative;
+
+      .ellipse {
+        position: absolute;
+        top: 20px;
+        right: -71px;
+      }
+    }
+
+    .descr {
+      display: flex;
+      align-items: center;
+
+      p {
+        position: relative;
+        left: -75px;
+        width: 100%;
+        max-width: 440px;
+      }
+    }
+  }
+}

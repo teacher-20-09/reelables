@@ -1,0 +1,52 @@
+#demo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 512px;
+  overflow: hidden;
+  background-image: url('/src/img/demo-bg.png');
+  background-position: center;
+  background-size: cover;
+
+  .demo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    padding: 20px;
+
+    h3 {
+      display: flex;
+      width: 100%;
+      max-width: 435px;
+      font-size: 26px;
+      font-weight: normal;
+      line-height: 39px;
+      font-family: Poppins;
+      color: #FFF;
+      text-transform: unset;
+      z-index: 2;
+
+      span {
+        font-family: Oswald;
+        font-weight: 700;
+        color: #55CAE8;
+        margin-right: 50px;
+      }
+    }
+  }
+
+  .demo-img {
+    position: relative;
+    margin-left: auto;
+    width: 100%;
+    max-width: 700px;
+    min-height: 512px;
+    
+    img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

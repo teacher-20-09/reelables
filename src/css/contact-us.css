@@ -1,0 +1,55 @@
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0; }
+  #contact-us .contact-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1229px;
+    min-height: 621px;
+    background-image: url("/src/img/contact-ellipse.png"); }
+    #contact-us .contact-content h3 {
+      margin: 40px auto; }
+    #contact-us .contact-content form {
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto; }
+      #contact-us .contact-content form .form-group label {
+        font-family: Poppins;
+        color: #2E2B32; }
+      #contact-us .contact-content form .form-group input {
+        padding: 15px;
+        height: 68px;
+        background: #FAFAFA;
+        border: 1px solid #504C54; }
+      #contact-us .contact-content form .form-group .btn-block {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px; }
+        #contact-us .contact-content form .form-group .btn-block p {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 190px;
+          border-radius: 36px;
+          font-size: 24px;
+          text-transform: uppercase;
+          padding: 16px;
+          background: #2E2B32;
+          color: #FFF; }
+          #contact-us .contact-content form .form-group .btn-block p img {
+            width: 18px;
+            height: 18px; }
+          #contact-us .contact-content form .form-group .btn-block p:hover {
+            opacity: .7;
+            cursor: pointer; }
+        #contact-us .contact-content form .form-group .btn-block a {
+          display: flex;
+          flex-direction: column;
+          padding-top: 10px;
+          color: #4AC9F3;
+          text-decoration: none; }
+          #contact-us .contact-content form .form-group .btn-block a span:nth-child(2) {
+            text-decoration: underline; }
